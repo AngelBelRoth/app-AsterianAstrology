@@ -55,3 +55,5 @@ btn.addEventListener('click', () => {
   let zodiac = getSign(month, day);
   result.textContent = `${zodiac}`;
 });
+
+// Shawn Holmes & Justin Joshi helped me
