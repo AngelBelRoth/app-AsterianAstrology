@@ -1,0 +1,70 @@
+body {
+  box-sizing: border-box;
+  font-family: fantasy;
+  padding-top: 10%;
+  background: hsl(213deg 76% 9%) url(../img/AA1.jpg) no-repeat center center/cover;
+  background-size: 54%;
+  color: pink;
+  text-shadow: 2px 2px black;
+}
+
+a {
+  color: lightsalmon;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+body {
+  height: 100vh;
+}
+
+h1,
+h2,
+h4,
+p,
+form {
+  text-align: center;
+}
+
+h1 {
+  line-height: 1.2rem;
+}
+
+h2 {
+  font-size: 50px;
+  color: palevioletred;
+  font-weight: bold;
+  padding-top: 1%;
+}
+
+button {
+  display: block;
+  margin: 1% auto;
+  color: pink;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: pink;
+}
+
+input {
+  display: block;
+  width: 100px;
+  padding-top: 5px;
+  margin: 1% 40%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 800px) {
+  body{
+    background-size: 80%;
+}
+}
